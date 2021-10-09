@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+main{
+    background: #fff;
+    padding: 30px 10px; 
+    border-radius: 20px;
+}
+.header{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+main .input-screen{
+    margin-bottom: 20px;
+    text-align: center;
+}
+section button{
+    margin: 5px;
+}
+section div .btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: lightblue;
+}
+section div .one .Clear{
+    text-align: left;
+}
+.input-screen input{
+    width: 90%;
+    outline: none;
+    padding: 15px;
+    border: none;
+    background: #87f2c8;
+    font-size: 20px;
+    text-align: right;
+}
+
+.btn-green{
+    background: #87f2c8;
+    color: #fff;
+}
+.btn-orange{
+    color: #f3856f;
+}
+
+.author{
+    color: #fff;
+    text-align: center;
+}
